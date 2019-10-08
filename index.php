@@ -46,7 +46,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                 	<ul class="navbar-nav ml-auto">
                     	<li class="nav-item active">
-                        	<a href="index.php" class="btn btn-primary" href="#">Home<span class="sr-only">(current)</span></a>
+                        	<a href="Front-End/index.php" class="btn btn-primary" href="#">Home<span class="sr-only">(current)</span></a>
                         </li>
 
                     </ul>
@@ -62,8 +62,8 @@
                     	<h1 class="font-weight-light">CONNECT WITH STUDENTS ON CAMPUS!</h1>
                         <p class="lead">Looking to Connect? Look no further!</p>
                         <p>
-            				<a href="CreateEmail.php" class="btn btn-primary my-2">Create Event</a>
-            				<a href="ViewEvent.php" class="btn btn-secondary my-2">View Events</a>
+            				<a href="Front-End/CreateEmail.php" class="btn btn-primary my-2">Create Event</a>
+            				<a href="Front-End/ViewEvent.php" class="btn btn-secondary my-2">View Events</a>
           				</p>
                     </div>
 
@@ -104,13 +104,13 @@ The site displays the campus events, allows its users to create events and has r
                         <ul class="navbar-nav ml-auto">
 
                               <li class="nav-item">
-                          <a href="about.php" class="nav-link" href="#">About</a>
+                          <a href="Front-End/about.php" class="nav-link" href="#">About</a>
                       </li>
                               <li class="nav-item">
-                          <a href="Resources.php" class="nav-link" href="#">Resources</a>
+                          <a href="Front-End/Resources.php" class="nav-link" href="#">Resources</a>
                       </li>
                               <li class="nav-item">
-                          <a href="Faq.php" class="nav-link" href="#">FAQ</a>
+                          <a href="Front-End/Faq.php" class="nav-link" href="#">FAQ</a>
                       </li>
 
                           </ul>
