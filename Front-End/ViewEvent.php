@@ -50,7 +50,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                 	<ul class="navbar-nav ml-auto">
                     	<li class="nav-item active">
-                        	<a href="index.php" class="btn btn-primary" href="#">Home<span class="sr-only">(current)</span></a>
+                        <a href="../index.php" class="btn btn-primary" href="#">Home<span class="sr-only">(current)</span></a>
                         </li>
 
                     </ul>
@@ -82,7 +82,7 @@
                         	<h2 class="font-weight-light text-center">Events</h2>
 =======
 
-                        	
+
 
 
                           	<p>When you're home to over 12,000 students it's hard to find ways to connect with so many students.
@@ -167,7 +167,7 @@ View our events here!
                   </div>
                   </div>
                 </div>
-            
+
                  <!-- View event card end here  -->
 
                 </div>

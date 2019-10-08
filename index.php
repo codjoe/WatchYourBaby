@@ -46,7 +46,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                 	<ul class="navbar-nav ml-auto">
                     	<li class="nav-item active">
-                        	<a href="Front-End/index.php" class="btn btn-primary" href="#">Home<span class="sr-only">(current)</span></a>
+                        	<a href="index.php" class="btn btn-primary" href="#">Home<span class="sr-only">(current)</span></a>
                         </li>
 
                     </ul>

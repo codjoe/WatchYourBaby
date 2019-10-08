@@ -51,7 +51,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                 	<ul class="navbar-nav ml-auto">
                     	<li class="nav-item active">
-                        	<a href="index.php" class="btn btn-primary" href="#">Home<span class="sr-only">(current)</span></a>
+                        	<a href="../index.php" class="btn btn-primary" href="#">Home<span class="sr-only">(current)</span></a>
                         </li>
 
                     </ul>
@@ -87,10 +87,10 @@
                                Failure to follow these guidelines may result in the termination of your community membership.
                             </p>
 
-                            <p> While visiting and participating in the online community sites, you are solely responsible for your conduct. Below are some, 
+                            <p> While visiting and participating in the online community sites, you are solely responsible for your conduct. Below are some,
                             but not all, of the expectations for your participation in our communities. In understanding these guidelines, you agree NOT to:
                             Harass, threaten, belittle, or otherwise distress any other user or entity;
-                            Transmit information of any type that is considered unlawful, threatening, abusive, vulgar, obscene, or prejudices against any user 
+                            Transmit information of any type that is considered unlawful, threatening, abusive, vulgar, obscene, or prejudices against any user
                             or entity in regard to race, color, religion, national origin, gender, sexual preference, age or disability;
                             Impersonate any person, including but not limited to a GGC official;
                             Use our community sites for advertisement, promotion or solicitation of any kind;
@@ -98,8 +98,8 @@
                             Transmit any materials that contain viruses or other malicious items;
                             Break any local, state or federal laws in conjunction with your use of the site.</p>
 
-                            <p>Our online communities may contain facts, statements, recommendations, opinions and views by users and third party entities. 
-                            GGC Social Connector and its affiliates do not endorse and are not responsible for the accuracy or reliability of content in these areas. 
+                            <p>Our online communities may contain facts, statements, recommendations, opinions and views by users and third party entities.
+                            GGC Social Connector and its affiliates do not endorse and are not responsible for the accuracy or reliability of content in these areas.
                             You agree that use of this information is at your own risk.</p>
 
                             <!-- Default unchecked -->
@@ -110,7 +110,7 @@
                                     <div class="invalid-feedback">You must agree before submitting.</div>
                                 </div>
                                 <br/>
-                                <button class="btn btn-primary" type="submit" name="submit">Submit</button>    
+                                <button class="btn btn-primary" type="submit" name="submit">Submit</button>
                             </form>
                         </div>
                 	</div>
