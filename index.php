@@ -39,7 +39,7 @@
     	<!-- Navigation -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
         	<div class="container">
-            	<a class="navbar-brand" href="#page-top">GGC Social Connect</a>
+            	<a class="navbar-brand" href="#page-top">WYB</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           			<span class="navbar-toggler-icon"></span>
                 </button>
@@ -59,11 +59,11 @@
             <div class="container h-100">
             	<div class="row h-100 align-items-center">
                 	<div class="col-12 text-center">
-                    	<h1 class="font-weight-light">CONNECT WITH STUDENTS ON CAMPUS!</h1>
-                        <p class="lead">Looking to Connect? Look no further!</p>
+                    	<h1 class="font-weight-light">FAST WAY TO CONNECT WITH A BABYSITTER AROUND YOU!</h1>
+                        <p class="lead"> can't find a last minute babysitter ? We got you!</p>
                         <p>
-            				<a href="Front-End/CreateEmail.php" class="btn btn-primary my-2">Create Event</a>
-            				<a href="Front-End/ViewEvent.php" class="btn btn-secondary my-2">View Events</a>
+            				<a href="Front-End/CreateEmail.php" class="btn btn-primary my-2">Register as babysitter</a>
+            				<a href="Front-End/ViewEvent.php" class="btn btn-secondary my-2">Find Babysitter</a>
           				</p>
                     </div>
 
@@ -96,7 +96,7 @@ The site displays the campus events, allows its users to create events and has r
         <footer>
           <nav class="navbar navbar-expand-lg navbar-light bg-light shadow ">
                 <div class="container">
-                    <a class="navbar-brand" href="#page-top">GGC Social Connect</a>
+                    <a class="navbar-brand" href="#page-top">Watch Your Baby</a>
                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                       </button>
