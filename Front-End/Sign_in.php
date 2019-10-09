@@ -68,13 +68,20 @@
                     	<h1 class="font-weight-light">CONNECT WITH STUDENTS ON CAMPUS!</h1>
                         <p class="lead">A great way to connect with other students</p>
                         <form method='post' action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
+                              <!-- email box -->
                             <div class="form-group">
-                                <label for="email">Required GGC email</label>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter GGC email" required>
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+
+                            </div>
+                              <!-- password box -->
+                            <div class="form-group">
+
+                                <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+                                <small id="passwordHelpd" class="form-text text-muted">We'll never share your credentials with anyone else.</small>
                             </div>
 
-                            <button type="submit" class="btn btn-secondary my-2" name="create" value="create">Submit</button>
+                            <button type="submit" class="btn btn-primary my-2" name="create" value="create">Sign in</button>
                         </form>
                     </div>
             	</div>
