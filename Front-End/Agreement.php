@@ -4,10 +4,10 @@
      *            https://startbootstrap.com
      */
 
-     session_start();
+    // session_start();
 
-    require 'resources/database.php';
-    require 'resources/viewer.php';
+    //require 'resources/database.php';
+    //require 'resources/viewer.php';
 
     $title = "Watch Your Baby";
 ?>

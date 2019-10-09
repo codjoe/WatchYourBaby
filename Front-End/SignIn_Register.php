@@ -46,7 +46,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                 	<ul class="navbar-nav ml-auto">
                     	<li class="nav-item active">
-                        	<a href="index.php" class="btn btn-primary" href="#">Home<span class="sr-only">(current)</span></a>
+                        	<a href="../index.php" class="btn btn-primary" href="#">Home<span class="sr-only">(current)</span></a>
                         </li>
 
                     </ul>
@@ -62,8 +62,8 @@
                     	<h1 class="font-weight-light">FAST WAY TO CONNECT WITH A BABYSITTER AROUND YOU!</h1>
                         <p class="lead"> can't find a last minute babysitter ? We got you!</p>
                         <p>
-            				<a href="CreateEmail.php" class="btn btn-primary my-2">Sign up</a>
-            				<a href="ViewEvent.php" class="btn btn-secondary my-2">Sign in</a>
+            				<a href="Sign_up.php" class="btn btn-primary my-2">Sign up</a>
+            				<a href="Sign_in.php" class="btn btn-secondary my-2">Sign in</a>
           				</p>
                     </div>
 

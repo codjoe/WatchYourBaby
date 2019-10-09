@@ -67,14 +67,22 @@
                 	<div class="col-12 text-center">
                     	<h1 class="font-weight-light">CONNECT WITH STUDENTS ON CAMPUS!</h1>
                         <p class="lead">A great way to connect with other students</p>
-                        <form method='post' action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
+                        <form method='post' action="Agreement.php" action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
+                            <!-- Email box -->
                             <div class="form-group">
-                                <label for="email">Required GGC email</label>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter GGC email" required>
+                                <label for="email">Registration Requirement</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
 
-                            <button type="submit" class="btn btn-secondary my-2" name="create" value="create">Submit</button>
+                              <!-- Name box -->
+                            <div class="form-group">
+
+                                <input type="name" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+
+                            </div>
+
+                            <button type="submit" class="btn btn-primary my-2" name="create" value="create">Submit</button>
                         </form>
                     </div>
             	</div>
