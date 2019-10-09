@@ -120,7 +120,7 @@
   </tr>
   <tr>
 
-    <td><center>Enjoys spending time in Buckhead, traveling to new areas and trying new food.</center></td>
+    <td><center>Enjoys spending quality time with the entourage and love learning new Technology.</center></td>
 
   </tr>
 </table>
