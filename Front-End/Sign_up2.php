@@ -67,7 +67,7 @@ $title = "Watch Your Baby";
         <div class="col-12 text-center">
           <h1 class="font-weight-light">CONNECT WITH STUDENTS ON CAMPUS!</h1>
           <p class="lead">A great way to connect with other students</p>
-          <form method='post' action="Agreement.php" action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
+          <form method='post' action="Agreement2.php" action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
             <!-- Email box -->
             <div class="form-group">
               <label for="email">Registration Requirement</label>
