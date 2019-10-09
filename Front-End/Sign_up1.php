@@ -71,16 +71,19 @@
                             <!-- Email box -->
                             <div class="form-group">
                                 <label for="email">Registration Requirement</label>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                                <input type="email" class="form-control" id="email" name="email" placeholder=" email" required>
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
 
-                              <!-- Name box -->
+                              <!-- First Name box -->
                             <div class="form-group">
-
-                                <input type="name" class="form-control" id="name" name="name" placeholder="Enter your name" required>
-
+                                <input type="name" class="form-control" id="fname" name="fname" placeholder=" First name" required>
                             </div>
+
+                            <!-- Last Name box -->
+                          <div class="form-group">
+                              <input type="name" class="form-control" id="lname" name="lname" placeholder=" Last name" required>
+                          </div>
 
                             <button type="submit" class="btn btn-primary my-2" name="create" value="create">Submit</button>
                         </form>
