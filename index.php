@@ -81,10 +81,10 @@
                     	<div class="col-md-8 mx-auto">
                         	<h2 class="font-weight-light">Whatever your style, connect with people your way</h2>
                           	<p>GGC Social Connect is an online social networking service company based in Lawrenceville, Georgia.
-It was founded by Codjoe Gamadeku, Grace Ongchangco, Elizabeth Haynie and Trivon Etheridge. The founders are students of Georgia
+ It was founded by Codjoe Gamadeku, Grace Ongchangco, Elizabeth Haynie and Trivon Etheridge. The founders are students of Georgia
  Gwinnett College that had a vision
-for a site that allows fellow students to all connect for events and social outings.
-The site displays the campus events, allows its users to create events and has resources to other information about the campus
+ for a site that allows fellow students to all connect for events and social outings.
+ The site displays the campus events, allows its users to create events and has resources to other information about the campus
  in general.  </p>
                         </div>
                 	</div>
