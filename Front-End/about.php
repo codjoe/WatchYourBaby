@@ -21,7 +21,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
-        <title>ggcsocialconnect!</title>
+        <title>WYB!</title>
         <style>
 
 			.masthead {
@@ -104,28 +104,24 @@
                             <p>
                             <table id="customers">
   <tr>
-    <th><center>Elizabeth Haynie</center></th>
-    <th><center>Trivon Etheridge</center></th>
+
     <th><center>Codjoe Gamadeku</center></th>
-    <th><center>Grace Ongchangco</center></th>
+
   </tr>
   <tr>
-    <td><center><img src="photos/lizz0.png"></center></td>
-    <td><center><img src="photos/tee.png"></center></td>
+
     <td><center><img src="photos/codjoe.png"></center></td>
-    <td><center><img src="photos/grace.png"></center></td>
+
   </tr>
   <tr>
-    <td><center>ehaynie@ggc.edu</center></td>
-    <td><center>tetheridge@ggc.edu</center></td>
+
     <td><center>cgamadeku@ggc.edu</center></td>
-    <td><center>gongchangco@ggc.edu</center></td>
+
   </tr>
   <tr>
-    <td><center>Enjoys programming, fine dining, spending money and making money.</center></td>
-    <td><center>Enjoys being a mother, spending time with friends and family and eating delicious food. </center></td>
+  
     <td><center>Enjoys spending time in Buckhead, traveling to new areas and trying new food.</center></td>
-    <td><center>Enjoys learning new programming languages, spending time with family and drinking coffee.</center></td>
+
   </tr>
 </table>
 

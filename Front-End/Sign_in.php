@@ -10,7 +10,7 @@
     //require 'resources/database.php';
   //  require 'resources/viewer.php';
 
-    $title = "GGC Social Connect";
+    $title = "Watch Your Baby";
 ?>
 
 <!-- Move all this header stuff later -->
