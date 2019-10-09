@@ -110,7 +110,7 @@
   </tr>
   <tr>
 
-    <td><center><img src="photos/codjoe.png"></center></td>
+    <td><center><img src="../Resourses/photos/codjoe.png"></center></td>
 
   </tr>
   <tr>
@@ -119,7 +119,7 @@
 
   </tr>
   <tr>
-  
+
     <td><center>Enjoys spending time in Buckhead, traveling to new areas and trying new food.</center></td>
 
   </tr>
