@@ -1,10 +1,16 @@
-
-
 <?php
     /**
      * Reference: https://getbootstrap.com
      *            https://startbootstrap.com
      */
+
+     session_start();
+
+     // Check Database Exist
+    //require 'resources/database.php';
+  //  require 'resources/viewer.php';
+
+    $title = "GGC Social Connect";
 ?>
 
 <!-- Move all this header stuff later -->
@@ -21,7 +27,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
-        <title>ggcsocialconnect!</title>
+        <title><?php echo $title; ?></title>
         <style>
 
 			.masthead {
@@ -39,14 +45,14 @@
     	<!-- Navigation -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
         	<div class="container">
-            	<a class="navbar-brand" href="#page-top">WYB</a>
+            	<a class="navbar-brand" href="index.php">WYB</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           			<span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                 	<ul class="navbar-nav ml-auto">
                     	<li class="nav-item active">
-                        	<a href="index.php" class="btn btn-primary" href="#">Home<span class="sr-only">(current)</span></a>
+                        	<a href="../index.php" class="btn btn-primary" href="#">Home<span class="sr-only">(current)</span></a>
                         </li>
 
                     </ul>
@@ -59,39 +65,23 @@
             <div class="container h-100">
             	<div class="row h-100 align-items-center">
                 	<div class="col-12 text-center">
-                    	<h1 class="font-weight-light">FAST WAY TO CONNECT WITH A BABYSITTER AROUND YOU!</h1>
-                        <p class="lead"> can't find a last minute babysitter ? We got you!</p>
-                        <p>
-            				<a href="Front-End/SignIn_Register.php" class="btn btn-primary my-2">Register as babysitter</a>
-            				<a href="Front-End/SignIn_Register.php" class="btn btn-secondary my-2">Find Babysitter</a>
-          				</p>
-                    </div>
+                    	<h1 class="font-weight-light">CONNECT WITH STUDENTS ON CAMPUS!</h1>
+                        <p class="lead">A great way to connect with other students</p>
+                        <form method='post' action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
+                            <div class="form-group">
+                                <label for="email">Required GGC email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter GGC email" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
 
+                            <button type="submit" class="btn btn-secondary my-2" name="create" value="create">Submit</button>
+                        </form>
+                    </div>
             	</div>
 
         	</div>
         </header>
 
-        <main role="main">
-          <!-- Section 1 -->
-            <section class="py-5">
-            	<div class="container">
-                	<div class="row">
-                    	<div class="col-md-8 mx-auto">
-                        	<h2 class="font-weight-light">Whatever your style, connect with people your way</h2>
-                          	<p>GGC Social Connect is an online social networking service company based in Lawrenceville, Georgia.
-It was founded by Codjoe Gamadeku, Grace Ongchangco, Elizabeth Haynie and Trivon Etheridge. The founders are students of Georgia
- Gwinnett College that had a vision
-for a site that allows fellow students to all connect for events and social outings.
-The site displays the campus events, allows its users to create events and has resources to other information about the campus
- in general.  </p>
-                        </div>
-                	</div>
-                </div>
-            </section>
-            <!-- Section 2 -->
-
-        </main>
         <!-- Footer -->
         <footer>
           <nav class="navbar navbar-expand-lg navbar-light bg-light shadow ">
@@ -104,13 +94,13 @@ The site displays the campus events, allows its users to create events and has r
                         <ul class="navbar-nav ml-auto">
 
                               <li class="nav-item">
-                          <a href="Front-End/about.php" class="nav-link" href="#">About</a>
+                          <a href="about.php" class="nav-link" href="#">About</a>
                       </li>
                               <li class="nav-item">
-                          <a href="Front-End/Resources.php" class="nav-link" href="#">Resources</a>
+                          <a href="Resources.php" class="nav-link" href="#">Resources</a>
                       </li>
                               <li class="nav-item">
-                          <a href="Front-End/Faq.php" class="nav-link" href="#">FAQ</a>
+                          <a href="Faq.php" class="nav-link" href="#">FAQ</a>
                       </li>
 
                           </ul>

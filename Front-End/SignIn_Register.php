@@ -62,8 +62,8 @@
                     	<h1 class="font-weight-light">FAST WAY TO CONNECT WITH A BABYSITTER AROUND YOU!</h1>
                         <p class="lead"> can't find a last minute babysitter ? We got you!</p>
                         <p>
-            				<a href="Front-End/SignIn_Register.php" class="btn btn-primary my-2">Register as babysitter</a>
-            				<a href="Front-End/SignIn_Register.php" class="btn btn-secondary my-2">Find Babysitter</a>
+            				<a href="CreateEmail.php" class="btn btn-primary my-2">Sign up</a>
+            				<a href="ViewEvent.php" class="btn btn-secondary my-2">Sign in</a>
           				</p>
                     </div>
 
