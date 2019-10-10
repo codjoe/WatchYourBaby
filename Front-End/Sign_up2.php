@@ -75,6 +75,12 @@ $title = "Watch Your Baby";
 
             </div>
 
+            <!-- Photos box -->
+            <div class="custom-file">
+              <input type="file" class="form-control" id="customFileLang" lang="es" required>
+              <label class="custom-file-label" for="customFileLang">Profile Photo</label><br>
+            </div>
+
             <!-- First Name box -->
             <div class="form-group">
               <input type="name" class="form-control" id="fname" name="fname" placeholder=" First Name" required>
