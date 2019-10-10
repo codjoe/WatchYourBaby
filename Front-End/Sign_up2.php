@@ -77,33 +77,33 @@ $title = "Watch Your Baby";
 
             <!-- First Name box -->
             <div class="form-group">
-              <input type="name" class="form-control" id="fname" name="fname" placeholder=" First name" required>
+              <input type="name" class="form-control" id="fname" name="fname" placeholder=" First Name" required>
             </div>
 
             <!-- Last Name box -->
             <div class="form-group">
-              <input type="name" class="form-control" id="lname" name="lname" placeholder=" Last name" required>
+              <input type="name" class="form-control" id="lname" name="lname" placeholder=" Last Name" required>
             </div>
 
             <!-- Phone number box -->
             <div class="form-group">
-              <input type="Phone" class="form-control" id="phone" name="phone" placeholder=" Phone number" required>
+              <input type="Phone" class="form-control" id="phone" name="phone" placeholder=" Phone Number" required>
             </div>
 
 
             <!-- User Name box -->
             <div class="form-group">
-              <input type="name" class="form-control" id="username" name="username" placeholder=" User name" required>
+              <input type="name" class="form-control" id="username" name="username" placeholder=" User Name" required>
             </div>
 
             <!-- password box -->
             <div class="form-group">
-              <input type="password" class="form-control" id="password" name="password" placeholder=" password" required>
+              <input type="password" class="form-control" id="password" name="password" placeholder=" Password" required>
             </div>
 
             <!-- confirm password box -->
             <div class="form-group">
-              <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder=" confirm password" required>
+              <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder=" Confirm Password" required>
               <small id="emailHelp" class="form-text text-muted">We'll never share your Information with anyone else.</small>
             </div>
 

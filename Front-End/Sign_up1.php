@@ -75,24 +75,30 @@ $title = "Watch Your Baby";
 
             </div>
 
+            <!-- Photos box -->
+            <div class="custom-file">
+              <input type="file" class="form-control" id="customFileLang" lang="es" required>
+              <label class="custom-file-label" for="customFileLang">Profile Photo</label><br>
+            </div>
+
             <!-- First Name box -->
             <div class="form-group">
-              <input type="name" class="form-control" id="fname" name="fname" placeholder=" First name" required>
+              <input type="name" class="form-control" id="fname" name="fname" placeholder=" First Name" required>
             </div>
 
             <!-- Last Name box -->
             <div class="form-group">
-              <input type="name" class="form-control" id="lname" name="lname" placeholder=" Last name" required>
+              <input type="name" class="form-control" id="lname" name="lname" placeholder=" Last Name" required>
             </div>
 
             <!-- phone number box -->
             <div class="form-group">
-              <input type="phone" class="form-control" id="phone" name="phone" placeholder=" Phone number" required>
+              <input type="phone" class="form-control" id="phone" name="phone" placeholder=" Phone Number" required>
             </div>
 
             <!-- User Name box -->
             <div class="form-group">
-              <input type="name" class="form-control" id="username" name="username" placeholder=" User name" required>
+              <input type="name" class="form-control" id="username" name="username" placeholder=" User Name" required>
             </div>
 
             <!-- Home Address box -->
@@ -102,12 +108,12 @@ $title = "Watch Your Baby";
 
             <!-- password box -->
             <div class="form-group">
-              <input type="password" class="form-control" id="password" name="password" placeholder=" password" required>
+              <input type="password" class="form-control" id="password" name="password" placeholder=" Password" required>
             </div>
 
             <!-- confirm password box -->
             <div class="form-group">
-              <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder=" confirm password" required>
+              <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder=" Confirm Password" required>
               <small id="emailHelp" class="form-text text-muted">We'll never share your Information with anyone else.</small>
             </div>
 
