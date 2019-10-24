@@ -45,9 +45,6 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                 	<ul class="navbar-nav ml-auto">
-                    	<li class="nav-item active">
-                        	<a href="index.php" class="btn btn-primary" href="#">Home<span class="sr-only">(current)</span></a>
-                        </li>
 
                     </ul>
                 </div>
@@ -59,13 +56,13 @@
             <div class="container h-100">
             	<div class="row h-100 align-items-center">
                 	<div class="col-12 text-center">
-                    	<h1 class="font-weight-light">FAST WAY TO CONNECT WITH A BABYSITTER AROUND YOU!</h1>
-                        <p class="lead"> can't find a last minute babysitter ? We got you!</p>
+                    	<h1 class="font-weight-light">YOU HAVE SIGN OUT SUCCEFULLY!</h1>
+
                         <p>
-            				<a href="Sign_up1.php" class="btn btn-primary my-2">Register as babysitter</a>
-            				<a href="SignIn_Register.php" class="btn btn-secondary my-2">Find Babysitter</a>
+            				<a href="Sign_up1.php" class="btn btn-primary my-2">Home</a>
+
           				</p>
-                  <a href="Sign_in.php" class="nav-link" href="#">Sign in</a>
+
                     </div>
 
             	</div>
@@ -79,7 +76,7 @@
             	<div class="container">
                 	<div class="row">
                     	<div class="col-md-8 mx-auto">
-                        	<h2 class="font-weight-light">YOU HAVE SIGN OUT SUCCEFULLY</h2>
+
 
                         </div>
                 	</div>

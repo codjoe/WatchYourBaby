@@ -60,13 +60,7 @@
             	<div class="row h-100 align-items-center">
                 	<div class="col-12 text-center">
                     	<h1 class="font-weight-light">FAST WAY TO CONNECT WITH A BABYSITTER AROUND YOU!</h1>
-                        <p class="lead"> can't find a last minute babysitter ? We got you!</p>
-                        <p>
-            				<a href="Sign_up1.php" class="btn btn-primary my-2">Register as babysitter</a>
-            				<a href="SignIn_Register.php" class="btn btn-secondary my-2">Find Babysitter</a>
-          				</p>
-                  <a href="Sign_in.php" class="nav-link" href="#">Sign in</a>
-                    </div>
+                        <p class="lead"> can't find a last minute babysitter ? We got you!</p>                  
 
             	</div>
 

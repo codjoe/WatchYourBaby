@@ -67,7 +67,7 @@
                 	<div class="col-12 text-center">
                     	<h1 class="font-weight-light">CONNECT WITH STUDENTS ON CAMPUS!</h1>
                         <p class="lead">A great way to connect with other students</p>
-                        <form method='post' action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
+                        <form  method='post' action='Main_page.php' action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
                               <!-- email box -->
                             <div class="form-group">
 
@@ -81,9 +81,10 @@
                                 <small id="passwordHelpd" class="form-text text-muted">We'll never share your credentials with anyone else.</small>
                             </div>
 
-                            <button href="Main_page.php" type="submit" class="btn btn-primary my-2" name="create" value="create">Sign in</button>
-                        </form>
+                            <button type="submit" class="btn btn-primary my-2" name="create" value="create">Sign in</button>
+
                     </div>
+                  </form>
             	</div>
 
         	</div>
