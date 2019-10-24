@@ -59,7 +59,7 @@
                     	<h1 class="font-weight-light">YOU HAVE SIGN OUT SUCCEFULLY!</h1>
 
                         <p>
-            				<a href="Sign_up1.php" class="btn btn-primary my-2">Home</a>
+            				<a href="../index.php" class="btn btn-primary my-2">Home</a>
 
           				</p>
 
