@@ -80,9 +80,9 @@
                                 <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
                                 <small id="passwordHelpd" class="form-text text-muted">We'll never share your credentials with anyone else.</small>
                             </div>
-
                             <button type="submit" class="btn btn-primary my-2" name="create" value="create">Sign in</button>
-
+                            <a href="ForgotPassword.php" class="nav-link" href="#">Forgot password</a>
+                            <a href="ForgotEmail.php" class="nav-link" href="#">Forgot email</a>
                     </div>
                   </form>
             	</div>

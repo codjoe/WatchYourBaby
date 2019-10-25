@@ -4,10 +4,11 @@
      *            https://startbootstrap.com
      */
 
-    // session_start();
+     session_start();
 
+     // Check Database Exist
     //require 'resources/database.php';
-    //require 'resources/viewer.php';
+  //  require 'resources/viewer.php';
 
     $title = "Watch Your Baby";
 ?>
@@ -26,7 +27,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
-        <title><?php echo $title ?></title>
+        <title><?php echo $title; ?></title>
         <style>
 
 			.masthead {
@@ -66,69 +67,33 @@
                 	<div class="col-12 text-center">
                     	<h1 class="font-weight-light">CONNECT WITH STUDENTS ON CAMPUS!</h1>
                         <p class="lead">A great way to connect with other students</p>
+                        <form  method='post' action='PasswordAuthentication.php' action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
+
+                              <!-- phone number to authenticate box -->
+                            <div class="form-group">
+
+                                <input type="Phone" class="form-control" id="phone" name="Phone" placeholder="Enter your phone number" required>
+                                <small id="passwordHelpd" class="form-text text-muted">We'll never share your credentials with anyone else.</small>
+                            </div>
+                            <button type="submit" class="btn btn-primary my-2" name="create" value="create">Submit</button>
                     </div>
+                  </form>
             	</div>
 
         	</div>
         </header>
 
-        <main role="main">
-          <!-- Section 1 -->
-            <section class="py-5">
-            	<div class="container">
-                	<div class="row">
-                    	<div class="col-md-8 mx-auto">
-                        	<h2 class="font-weight-light">Terms & Agreement</h2>
-                          	<p>GGC Social Connector would like your experience on our website and the online
-                               community sites to be enjoyable and educational.
-                               There will be areas of the site in which users may participate in forums, surveys,
-                               discussion boards, and other content creation. Please review the guidelines below before participating in
-                               our online communities. These guidelines may be updated from time to time as described in the Terms of Service.
-                               Failure to follow these guidelines may result in the termination of your community membership.
-                            </p>
-
-                            <p> While visiting and participating in the online community sites, you are solely responsible for your conduct. Below are some,
-                            but not all, of the expectations for your participation in our communities. In understanding these guidelines, you agree NOT to:
-                            Harass, threaten, belittle, or otherwise distress any other user or entity;
-                            Transmit information of any type that is considered unlawful, threatening, abusive, vulgar, obscene, or prejudices against any user
-                            or entity in regard to race, color, religion, national origin, gender, sexual preference, age or disability;
-                            Impersonate any person, including but not limited to a GGC official;
-                            Use our community sites for advertisement, promotion or solicitation of any kind;
-                            Invade or violate the privacy of any user, including sharing personal information about any individual in a public site area;
-                            Transmit any materials that contain viruses or other malicious items;
-                            Break any local, state or federal laws in conjunction with your use of the site.</p>
-
-                            <p>Our online communities may contain facts, statements, recommendations, opinions and views by users and third party entities.
-                            GGC Social Connector and its affiliates do not endorse and are not responsible for the accuracy or reliability of content in these areas.
-                            You agree that use of this information is at your own risk.</p>
-
-                            <!-- Default unchecked -->
-                            <form method='post' action='Main_page.php' class="form-horizontal" id='agree'>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value ="" id="invalidCheck" name="agree" required>
-                                    <label class="form-check-label" for="invalidCheck">I agree with the Terms & Agreements</label>
-                                    <div class="invalid-feedback">You must agree before submitting.</div>
-                                </div>
-                                <br/>
-                                <button class="btn btn-primary" type="submit" name="submit">Submit</button>
-                            </form>
-                        </div>
-                	</div>
-                </div>
-            </section>
-            <!-- Section 2 -->
-
-        </main>
         <!-- Footer -->
         <footer>
           <nav class="navbar navbar-expand-lg navbar-light bg-light shadow ">
                 <div class="container">
-                    <a class="navbar-brand" href="index.php"><?php echo $title; ?></a>
+                    <a class="navbar-brand" href="#page-top">Watch Your Baby</a>
                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ml-auto">
+
                               <li class="nav-item">
                           <a href="about.php" class="nav-link" href="#">About</a>
                       </li>
