@@ -75,7 +75,7 @@
                                 <input type="number" class="form-control" id="number" name="number" placeholder="Enter the code from your phone" required>
                                 <small id="passwordHelpd" class="form-text text-muted">We'll never share your credentials with anyone else.</small>
                             </div>
-                            <button type="submit" class="btn btn-primary my-2" name="create" value="create">Sign in</button>
+                            <button type="submit" class="btn btn-primary my-2" name="create" value="create">Submit</button>
                             <a href="ForgotPassword.php" class="nav-link" href="#">I didn't receive the code</a>
 
                     </div>

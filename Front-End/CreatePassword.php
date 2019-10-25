@@ -67,7 +67,7 @@
                 	<div class="col-12 text-center">
                     	<h1 class="font-weight-light">CONNECT WITH STUDENTS ON CAMPUS!</h1>
                         <p class="lead">A great way to connect with other students</p>
-                        <form  method='post' action='Main_page.php' action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
+                        <form  method='post' action='Sign_in.php' action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
                               <!-- password 1 box -->
                             <div class="form-group">
 
