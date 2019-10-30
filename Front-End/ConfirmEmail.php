@@ -68,18 +68,13 @@
                     	<h1 class="font-weight-light">CONNECT WITH STUDENTS ON CAMPUS!</h1>
                         <p class="lead">A great way to connect with other students</p>
                         <form  method='post' action='ConfirmEmail.php' action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
-                              <!-- first name box -->
+                              <!-- ConfirmEmail box -->
                             <div class="form-group">
 
-                                <input type="fname" class="form-control" id="fname" name="fname" placeholder="Enter your first name" required>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Confirm your email" required>
 
                             </div>
-                              <!-- last name box -->
-                            <div class="form-group">
 
-                                <input type="lname" class="form-control" id="lname" name="lname" placeholder="Enter your last name" required>
-                                <small id="passwordHelpd" class="form-text text-muted">We'll never share your credentials with anyone else.</small>
-                            </div>
                             <button type="submit" class="btn btn-primary my-2" name="create" value="create">Sign in</button>
 
                     </div>
