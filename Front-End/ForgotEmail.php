@@ -80,7 +80,7 @@
                                 <input type="lname" class="form-control" id="lname" name="lname" placeholder="Enter your last name" required>
                                 <small id="passwordHelpd" class="form-text text-muted">We'll never share your credentials with anyone else.</small>
                             </div>
-                            <button type="submit" class="btn btn-primary my-2" name="create" value="create">Sign in</button>
+                            <button type="submit" class="btn btn-primary my-2" name="create" value="create">submit</button>
 
                     </div>
                   </form>

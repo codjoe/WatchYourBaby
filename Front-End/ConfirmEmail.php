@@ -66,8 +66,8 @@
             	<div class="row h-100 align-items-center">
                 	<div class="col-12 text-center">
                     	<h1 class="font-weight-light">CONNECT WITH STUDENTS ON CAMPUS!</h1>
-                        <p class="lead">A great way to connect with other students</p>
-                        <form  method='post' action='ConfirmEmail.php' action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
+                        <p class="lead">We have send you an email with your email address</p>
+                        <form  method='post' action='CreatePassword.php' action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' id='create'>
                               <!-- ConfirmEmail box -->
                             <div class="form-group">
 
@@ -75,7 +75,8 @@
 
                             </div>
 
-                            <button type="submit" class="btn btn-primary my-2" name="create" value="create">Sign in</button>
+                            <button type="submit" class="btn btn-primary my-2" name="create" value="create">submit</button>
+                            <a href="ForgotEmail.php" class="nav-link" href="#">I didn't receive any email</a>
 
                     </div>
                   </form>
