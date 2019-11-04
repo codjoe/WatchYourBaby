@@ -21,7 +21,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
-        <title>ggcsocialconnect!</title>
+        <title>WYB</title>
         <style>
 
 			.masthead {
@@ -60,7 +60,7 @@
             	<div class="row h-100 align-items-center">
                 	<div class="col-12 text-center">
                     	<h1 class="font-weight-light">FAST WAY TO CONNECT WITH A BABYSITTER AROUND YOU!</h1>
-                        <p class="lead"> can't find a last minute babysitter ? We got you!</p>                  
+                        <p class="lead"> can't find a last minute babysitter ? We got you!</p>
 
             	</div>
 

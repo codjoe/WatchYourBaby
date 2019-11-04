@@ -24,7 +24,7 @@
 <<<<<<< HEAD
         <title>FAQ</title>
 =======
-        <title>ggcsocialconnect!</title>
+        <title>WYB</title>
 >>>>>>> 08165b99fe080974de904cdbff813a9505d7c9d2
         <style>
 

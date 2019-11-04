@@ -22,7 +22,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
 <<<<<<< HEAD
-        <title>ggcsocialconnect!</title>
+        <title>WYB</title>
 =======
         <title>View Events</title>
 >>>>>>> 523717f86c0efff3ff15854121b99ddc8da37d04

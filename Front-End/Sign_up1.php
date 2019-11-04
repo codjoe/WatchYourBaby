@@ -10,7 +10,7 @@ session_start();
 //require 'resources/database.php';
 //  require 'resources/viewer.php';
 
-$title = "Watch Your Baby";
+$title = "WYB";
 ?>
 
 <!-- Move all this header stuff later -->

@@ -52,7 +52,7 @@
         </script>
 
 
-        <title>ggcsocialconnect!</title>``
+        <title>WYB</title>``
         <style>
 
 			.masthead {
